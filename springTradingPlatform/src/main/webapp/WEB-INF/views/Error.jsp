@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    
+    <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+    
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,7 +74,7 @@
 
 
     <center>
-        <img src="error.jpg" alt="img" height="300" width="500">
+        <img src='<spring:url value="/resources/images/error.jpg"></spring:url>' alt="img" height="300" width="500">
         <br>
         <br>
        
@@ -78,7 +82,7 @@
 
     <div class="bt">
        
-        <button class="btn1"><a href="Login.jsp" class="btn1">TRY AGAIN</a></button>
+        <button class="btn1"><a href="Login" class="btn1">TRY AGAIN</a></button>
 
     </div>
 <br>

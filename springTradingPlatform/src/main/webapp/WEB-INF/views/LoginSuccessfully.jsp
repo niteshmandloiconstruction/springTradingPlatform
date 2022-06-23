@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,7 +73,7 @@
 
 
     <center>
-        <img src="login.png" alt="image" height="430" width="700">
+        <img src='<spring:url value="/resources/images/login.png"></spring:url>'  alt="image" height="430" width="700">
         <br>
         <br>
        
@@ -78,7 +81,7 @@
 
     <div class="bt">
        
-        <button class="btn1"><a href="Index.jsp" class="btn1">Go to Home</a></button>
+        <button class="btn1"><a href="Index" class="btn1">Go to Home</a></button>
 
     </div>
 
