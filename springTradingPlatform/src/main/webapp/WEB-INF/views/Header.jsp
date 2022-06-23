@@ -19,8 +19,8 @@
 
 		<div class="navbar">
 
-			<a href="Index.jsp" class="btn"><b>Home</b></a> <a href=""
-				class="btn"><b>About</b></a> <a href="Register.jsp" class="btn"><b>Open
+			<a href="Index" class="btn"><b>Home</b></a> <a href=""
+				class="btn"><b>About</b></a> <a href="Register" class="btn"><b>Open
 					Demat Account</b></a>
 
 		</div>

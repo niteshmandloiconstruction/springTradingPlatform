@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@page import="in.ster.commons.TPView"%>
 
 <!DOCTYPE html>
 <html>
@@ -72,22 +73,25 @@
 
 	<center>
 		<img
-			src='<spring:url value="/resources/images/image.png"></spring:url>' alt="img" height="250" width="400">
-        <br>
-        <br>
-        <img src='<spring:url value="/resources/images/slogan.png"></spring:url>' alt="slogan">
-    </center>
+			src='<spring:url value="/resources/images/image.png"></spring:url>'
+			alt="img" height="250" width="400"> <br> <br> <img
+			src='<spring:url value="/resources/images/slogan.png"></spring:url>'
+			alt="slogan">
+	</center>
 
-    <div class="bt">
-        <button class="btn1"><a href="Register.jsp" class="btn1">Open Demat Account</a></button>
-        <button class="btn1"><a href="Login.jsp" class="btn1">SignIn Account</a></button>
+	<div class="bt">
+		<button class="btn1" onclick="location.href ='Register'">Open
+			Demat Account</button>
 
-    </div>
+		<button class="btn1" onclick="location.href ='Login'">SignIn
+			Account</button>
 
-    <br>
-    <br>
-    <hr >
-    <center>All Rights Reserved. Copyright@2022</center>
+	</div>
+
+	<br>
+	<br>
+	<hr>
+	<center>All Rights Reserved. Copyright@2022</center>
 </body>
 
 </html>
